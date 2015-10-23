@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='chunks',
-      version='0.1.1',
+      version='0.1.2',
       description='Keyed blocks of content for use in your Django templates',
       author='Clint Ecker',
       author_email='me@clintecker.com',
@@ -13,5 +13,5 @@ setup(name='chunks',
                    'License :: OSI Approved :: BSD License',
                    'Operating System :: OS Independent',
                    'Programming Language :: Python',
-                   'Topic :: Utilities'],
+                   'Topic :: Utilities'], requires=['django']
       )
